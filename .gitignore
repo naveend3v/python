@@ -1,2 +1,4 @@
 # intellij config folder
 .idea
+code.iml
+out
