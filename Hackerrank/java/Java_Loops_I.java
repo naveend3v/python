@@ -8,8 +8,6 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-
-
 public class Java_Loops_I {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

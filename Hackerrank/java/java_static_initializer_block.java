@@ -7,7 +7,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class java_static_initializer_block {
 
     // Write your code here
     static int B, H;

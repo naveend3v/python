@@ -4,7 +4,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution{
+public class java_loops_2 {
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int t=in.nextInt();
