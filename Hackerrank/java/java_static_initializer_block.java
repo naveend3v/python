@@ -7,6 +7,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+// Change below class name "java_static_initializer_block" to "Solution" when running this code in HackerRank submission
 public class java_static_initializer_block {
 
     // Write your code here

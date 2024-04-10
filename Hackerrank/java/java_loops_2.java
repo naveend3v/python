@@ -3,7 +3,7 @@
 
 import java.util.*;
 import java.io.*;
-
+// // Change below class name "java_loops_2" to "Solution" when running this code in HackerRank submission
 public class java_loops_2 {
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);

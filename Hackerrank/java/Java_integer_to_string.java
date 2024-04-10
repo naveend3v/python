@@ -3,6 +3,8 @@
 import java.io.*;
 import java.util.*;
 
+// Change below class name "Java_integer_to_string" to "Solution" when running this code in HackerRank submission
+
 public class Java_integer_to_string  {
 
     public static void main(String[] args) {

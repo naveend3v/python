@@ -9,6 +9,8 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+// Change below class name "javaIfElse" to "Solution" when running this code in HackerRank submission
+
 public class javaIfElse {
 
     private static final Scanner scanner = new Scanner(System.in);

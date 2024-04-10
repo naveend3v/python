@@ -4,6 +4,8 @@
 import java.util.*;
 import java.text.*;
 
+// Change below class name "java_currency_formatter" to "Solution" when running this code in HackerRank submission
+
 public class java_currency_formatter {
 
     public static void main(String[] args) {

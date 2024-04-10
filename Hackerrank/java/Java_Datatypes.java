@@ -3,6 +3,8 @@
 import java.util.*;
 import java.io.*;
 
+// Change below class name "Java_Datatypes" to "Solution" when running this code in HackerRank submission
+
 public class Java_Datatypes {
     public static void main(String []argh)
     {

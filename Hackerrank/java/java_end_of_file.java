@@ -7,6 +7,8 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+// Change below class name "java_end_of_file" to "Solution" when running this code in HackerRank submission
+
 public class java_end_of_file {
 
     public static void main(String[] args) {

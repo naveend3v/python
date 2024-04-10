@@ -3,8 +3,7 @@
 // Java Output Formatting
 
 import java.util.Scanner;
-
-// Change below class name 'javaOutputFormatting' when using this code in hackerrank
+// Change below class name "javaOutputFormatting" to "Solution" when running this code in HackerRank submission
 public class javaOutputFormatting {
 
     public static void main(String[] args) {

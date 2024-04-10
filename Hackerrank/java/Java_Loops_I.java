@@ -7,6 +7,7 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
+// Change below class name "Java_Loops_I" to "Solution" when running this code in HackerRank submission
 
 public class Java_Loops_I {
     public static void main(String[] args) throws IOException {
