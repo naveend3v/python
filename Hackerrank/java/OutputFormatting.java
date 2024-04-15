@@ -3,8 +3,8 @@
 // Java Output Formatting
 
 import java.util.Scanner;
-// Change below class name "javaOutputFormatting" to "Solution" when running this code in HackerRank submission
-public class javaOutputFormatting {
+// Change below class name "OutputFormatting" to "Solution" when running this code in HackerRank submission
+public class OutputFormatting {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
