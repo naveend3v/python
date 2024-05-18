@@ -5,7 +5,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
+// Change below class name "Arraylist" to "Solution" when running this code in HackerRank submission
 public class Arraylist {
 
     public static void main(String[] args) {
