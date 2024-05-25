@@ -3,7 +3,6 @@
     Ref
     https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 */
- */
 import java.util.*;
 import java.io.*;
 // Change below class name "javaMap" to "Solution" when running this code in HackerRank submission
