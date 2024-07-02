@@ -84,6 +84,5 @@ public class SCInnerClass {
         // Creating Outer class 4 and access the Static Inner Class via Outer class 3 method
         OuterInnerClass4 oc4 = new OuterInnerClass4();
         oc4.display();
-s
     }
 }
