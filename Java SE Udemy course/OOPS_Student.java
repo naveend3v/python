@@ -1,9 +1,27 @@
+import java.util.*;
+
 class OOPS_Student {
 
-    public int rollNumber;
+    private String rollNumber;
     public String studentName;
     public String courseName;
     public int m1,m2,m3;
+    private static int count = 1;
+
+    private String generateRollNo(){
+        Date d = new Date();
+        String rno = "Univ-"+(d.getYear()+1900)+"-"+count;
+        count++;
+        return rno;
+    }
+
+    public OOPS_Student(){
+        this.rollNumber = generateRollNo();
+    }
+
+    public String getRollNo(){
+        return this.rollNumber;
+    }
 
     public int total(){
         return m1+m2+m3;
@@ -27,12 +45,11 @@ class OOPS_Student {
     }
 
     public String details(){
-        return "Details : " + "\n"+ "Roll Number : "+ rollNumber + "\n" +  "StudentName : " + studentName + "\n" + "CourseName : " + courseName + "\n" + "Total Marks : " + total() + "\n" + "Average : " + average() + "\n" + "Grade : " + grade() + "\n";
+        return "Details : " + "\n"+ "Roll Number : "+ getRollNo() + "\n" +  "StudentName : " + studentName + "\n" + "CourseName : " + courseName + "\n" + "Total Marks : " + total() + "\n" + "Average : " + average() + "\n" + "Grade : " + grade() + "\n";
     }
 
-    public static void main(String[] args){
+    static public void main(String[] args){
         OOPS_Student s1 = new OOPS_Student();
-        s1.rollNumber = 1;
         s1.studentName = "Naveen";
         s1.courseName = "Civil Engineering";
         s1.m1 = 60;
@@ -41,8 +58,7 @@ class OOPS_Student {
 
         System.out.println(s1.details());
 
-        OOPS_Student s2 = new OOPS_Student();
-        s2.rollNumber = 2;
+        OOPS_Student s2 = new OOPS_Student();;
         s2.studentName = "Ravi";
         s2.courseName = "Mechanical Engineering";
         s2.m1 = 50;
