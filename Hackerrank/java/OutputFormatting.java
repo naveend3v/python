@@ -1,3 +1,4 @@
+package code.Hackerrank.java;
 // https://www.hackerrank.com/challenges/java-output-formatting/problem
 // https://www.baeldung.com/java-printstream-printf
 // Java Output Formatting

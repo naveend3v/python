@@ -4,7 +4,7 @@ package code.Hackerrank.java;
 
 import java.util.Scanner;
 
-class MyCalculator {
+class MyCalculator2 {
     public long power(int n, int p) throws Exception {
         if (n == 0 && p == 0) {
             throw new Exception("n and p should not be zero.");
@@ -26,12 +26,12 @@ class MyCalculator {
 public class JavaExceptionHandling2 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        MyCalculator myCalculator = new MyCalculator();
+        MyCalculator2 MyCalculator2 = new MyCalculator2();
         while (s.hasNextInt()) {
             int n = s.nextInt();
             int p = s.nextInt();
             try {
-                System.out.println(myCalculator.power(n, p));
+                System.out.println(MyCalculator2.power(n, p));
             } catch (Exception e) {
                 System.out.println(e);
             }
