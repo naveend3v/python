@@ -1,0 +1,6 @@
+#Personal Details
+#Thu Aug 15 20:44:44 IST 2024
+Brith\ Place=USA
+DOB=01-01-2000
+Height=15.5
+Name=Naveen

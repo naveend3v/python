@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Personal Details</comment>
+<entry key="Brith Place">USA</entry>
+<entry key="DOB">01-01-2000</entry>
+<entry key="Height">15.5</entry>
+<entry key="Name">Naveen</entry>
+</properties>
