@@ -2,7 +2,7 @@ package code.JavaUdemyCourse.SerializationDemo;
 
 import java.io.*;
 
-class Student implements Serializable{
+class Student implements Serializable {
     private int rollNo;
     private String studentName;
     private String dept;
