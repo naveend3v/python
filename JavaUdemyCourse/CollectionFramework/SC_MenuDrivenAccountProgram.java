@@ -31,8 +31,8 @@ class AllAccounts {
         try {
             FileInputStream fis = new FileInputStream("code/JavaUdemyCourse/CollectionFramework/SC_AllAccounts.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
+            i = ois.readInt();
             accountsData = (HashMap<String, Account>) ois.readObject();
-            i = accountsData.size() + 1;
             System.out.println("Accounts loaded from saved file!");
             fis.close();
             ois.close();
@@ -49,11 +49,20 @@ class AllAccounts {
     }
 
     public void deleteAccount(String AccountNo) {
-        accountsData.remove(AccountNo);
+        if(accountsData.containsKey(AccountNo)){
+            System.out.println(accountsData.get(AccountNo).accountName +  " - Account Deleted!");
+            accountsData.remove(AccountNo);
+        } else {
+            System.out.println("Account doesn't exist in database to delete, please create new account.");
+        }
     }
 
     public void viewAccount(String AccountNo) {
-        System.out.println(accountsData.get(AccountNo));
+        if(accountsData.containsKey(AccountNo)){
+            System.out.println(accountsData.get(AccountNo));
+        } else {
+            System.out.println("Account doesn't exist in database, please create new account.");
+        }
     }
 
     public void viewAllAccounts() {
@@ -68,6 +77,7 @@ class AllAccounts {
         try {
             FileOutputStream fos = new FileOutputStream("code/JavaUdemyCourse/CollectionFramework/SC_AllAccounts.txt");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeInt(i);
             oos.writeObject(accountsData);
             System.out.println("All accounts are Saved!");
             oos.close();
@@ -114,6 +124,8 @@ public class SC_MenuDrivenAccountProgram {
                 } else if (a == 6) {
                     s.close();
                     break;
+                } else {
+                    System.out.println("Please enter correct choice between 1 to 6.");
                 }
             } catch (Exception e) {
                 System.out.println(e);
