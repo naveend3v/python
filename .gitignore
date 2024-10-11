@@ -1,5 +1,5 @@
-# intellij config folder
+# intellij config folders and files
 .idea
-code.iml
+*.iml
 out
 *.class
